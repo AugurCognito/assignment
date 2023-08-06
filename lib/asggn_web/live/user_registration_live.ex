@@ -57,12 +57,6 @@ defmodule AsggnWeb.UserRegistrationLive do
           label="Password"
           required
         />
-        <i
-          id="vis-icon"
-          class="hero-eye hero-eye absolute top-1/2 right-2 transform -translate-y-1/10 cursor-pointer"
-          onclick={toggle_vis()}
-        >
-        </i>
         </div>
 
         <:actions>
